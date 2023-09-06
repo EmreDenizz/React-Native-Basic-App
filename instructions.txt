@@ -1,0 +1,26 @@
+Basic App
+
+- Your goal now is to create an app in 3 steps.
+
+- In the first step you will use Text and TextInput components.
+You will connect them in a way that the Text will display whatever is entered into the TextInput.
+You can play with input keyboards to see how different platforms respod to them. 
+
+- In the next task, you extend this app adding Clear Button.
+
+- Finally, you will add a Switch that changes the background. Use style to do it. You can apply style programmatically/dynamically.
+For example this code will apply random color to the element
+this.setState({backgroundColor: randomHex()});
+
+- Steps
+  Task 1:
+    Takes input from the TextInput
+    Displays it in the Text component below
+    
+  Task 2:
+    Add button that clears the content of the field (original said filed?)
+    
+  Task 3
+    Add Switch that will change the background color of your app between white and dark.
+    
+  Commit each task with a clear description stating task number. 
