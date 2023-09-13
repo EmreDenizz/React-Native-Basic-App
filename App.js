@@ -22,6 +22,15 @@ export default function App() {
 
             <Text>{'\n'}</Text>
 
+            {/* Clear button */}
+            <Button
+                onPress = {() => onChangeInput('')}
+                title = "Clear" 
+                color = "red"
+            />
+
+            <Text>{'\n'}</Text>
+
             
 
         </SafeAreaView>
