@@ -31,6 +31,19 @@ export default function App() {
 
             <Text>{'\n'}</Text>
 
+            {/* Output text */}
+            <Text style = {{color: 'orange', fontSize: 24}}>{inputValue}</Text>
+
+            <Text>{'\n'}</Text>
+
+            {/* Change background color button */}
+            <Text style={{fontWeight: 'bold', color: 'orange'}}>Change Background: Light / Dark</Text>
+            <Switch
+                thumbColor = {'orange'}
+                onValueChange={() => setChecked(prevState => !prevState)}
+                value={isChecked}>
+            </Switch>
+
             
 
         </SafeAreaView>
