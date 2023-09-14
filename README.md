@@ -9,8 +9,8 @@ npx expo start
 
 ### DESCRIPTIONS:
 Features:
-1. Takes input from the TextInput and displays it in the Text component below
-2. Add button that clears the content of the field
+1. Takes input from the TextInput and displays it in the Text component below.
+2. Add button that clears the content of the field.
 3. Add Switch that will change the background color of your app between white and dark.
 
 ### SCREENSHOTS:
